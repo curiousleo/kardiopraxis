@@ -27,9 +27,7 @@ $(function() {
 		<div id="menu">
 			<ul>
 			{% for item in navigation %}
-				<a href="{{ item.url }}" alt="{{ item.title }}">
-					<li>{{ item.title }}</li>
-				</a>
+				<li><a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
 			{% endfor %}
 			</ul>
 		</div>
