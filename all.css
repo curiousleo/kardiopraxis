@@ -66,7 +66,10 @@ p, li {
 li {
 	list-style-type: square;
 }
-img.rahmen {
+td.rahmen {
+	width: 200px;
+}
+td.rahmen > img {
 	border: #ca0000 solid 3px;
 	margin: 12px;
 }
