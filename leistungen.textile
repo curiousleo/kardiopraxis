@@ -7,7 +7,7 @@ h2. Schwerpunkte der Praxis im konventionellen Bereich:
 * *Schrittmacherimplantationen* werden ambulant oder kurzstationär am Krankenhaus Forbach durchgeführt.
 * Für *Ballonerweiterung* der Herzkranzgefäße und Stentimplantationen ist zumindest eine Übernachtung in der Klinik notwendig (aufgrund der vorgeschriebenen Überwachung). Zur Verwendung kommen bei entsprechender Indikation ("Richtlinie":http://www.dgk.org/leitlinien/ZFK0119.pdf der Deutschen Gesellschaft für Kardiologie) auch beschichtete Gefäßstützen (Stents).
 
-Qualitätssicherung: Teilnahme am QuIK Register (Qualitätssicherung Invasive Kardiologie) des "Bundes Niedergelassener Kardiologen (BNK)":http://www.bnk.de/.
+Qualitätssicherung: Teilnahme am QuIK Register (Qualitätssicherung Invasive Kardiologie) des "(extern)Bundes Niedergelassener Kardiologen (BNK)":http://www.bnk.de/.
 
 p. 
 
