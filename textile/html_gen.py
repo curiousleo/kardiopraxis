@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # vim: expantab tabstop=3 coding=utf8
 
 from jinja2 import Template
@@ -14,8 +15,8 @@ NAVI = []
 
 def html_gen(page, title=None):
    if not title: title = page.title()
-   input_path = os_path.join(TEXTILE_PATH, page.lower() + TEXTILE_EXT)
-   output_path = os_path.join(HTML_PATH, page.lower() + HTML_EXT)
+   input_path = os_path.join(TEXTILE_PATH, page.lower() + '.' + TEXTILE_EXT)
+   output_path = os_path.join(HTML_PATH, page.lower() + '.' + HTML_EXT)
 
    text = textile(open(input_path).read())
    template = Template(open(TEMPLATE_PATH).read())
