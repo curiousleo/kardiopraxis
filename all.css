@@ -28,8 +28,8 @@ body {
 #menu ul li {
 	display:inline;
 	font-weight:bold;
-	margin:0pt 5px;
-	padding:3px 0;
+	margin:3pt 5px;
+	padding:0px 0;
 }
 #content {
 	margin:75px auto 20px;
