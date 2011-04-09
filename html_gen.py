@@ -1,6 +1,7 @@
 from jinja2 import Template
 from textile import textile
 from sys import argv, exit
+from ConfigParser import ConfigParser
 
 def html_gen(c):
    text = textile("".join(l for l in open(c['input_path'])))
@@ -12,12 +13,13 @@ def html_gen(c):
       print c['output_path'], "sucessfully written. Bye!"
 
 if __name__ == "__main__":
-   if len(argv) != 3:
-      print "Wrong # of arguments!"; exit()
-
-   gen_context = {
-      'title': argv[1],
-      'template_path': argv[2],
-      'input_path': argv[1].lower() + '.textile',
-      'output_path': argv[1].lower() + '.htm'}
-   html_gen(gen_context)
+   config = ConfigParser()
+   config.read('site.cfg')
+   template_path = config.get('template', 'path')
+   for page, title in config.items('menu'):
+      gen_context = {
+         'title': title
+         'template_path': template_path
+         'input_path': page.lower() + '.textile',
+         'output_path': page.lower() + '.htm'}
+      html_gen(gen_context)
