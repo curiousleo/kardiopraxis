@@ -23,7 +23,7 @@ if __name__ == "__main__":
    config.read('site.cfg')
 
    template_path = config.get('template', 'path')
-   navi = [{'url': page + '.textile', 'title': title} \
+   navi = [{'url': page + '.htm', 'title': title} \
       for page, title in config.items('menu')]
 
    for page, title in config.items('menu'):
