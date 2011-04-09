@@ -2,7 +2,7 @@ from jinja2 import Template
 from textile import textile
 from sys import argv, exit
 from ConfigParser import ConfigParser
-import codecs
+from codecs import open as copen
 
 def html_gen(page, title=None, navi=[], template_path='template.htm'):
    if not title: title = page.title()
@@ -14,7 +14,7 @@ def html_gen(page, title=None, navi=[], template_path='template.htm'):
    context = {'title': title, 'content': text.decode('utf-8'), 'navigation': navi}
    html = template.render(context)
 
-   with codecs.open(output_path, encoding='latin-1', mode='w') as output:
+   with copen(output_path, encoding='latin-1', mode='w') as output:
       output.write(html)
       print output_path, "sucessfully written."
 
