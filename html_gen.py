@@ -3,9 +3,10 @@ from textile import textile
 from sys import argv, exit
 from ConfigParser import ConfigParser
 
-def html_gen(page, title, template_path):
-   input_path = page.lower() + '.textile',
-   output_path = page.lower() + '.htm'}
+def html_gen(page, title=None, template_path='template.htm'):
+   if not title: title = page.title()
+   input_path = page.lower() + '.textile'
+   output_path = page.lower() + '.htm'
 
    text = textile("".join(l for l in open(c['input_path'])))
    template = Template("".join(l for l in open(c['template_path'])))
@@ -20,4 +21,4 @@ if __name__ == "__main__":
    config.read('site.cfg')
    template_path = config.get('template', 'path')
    for page, title in config.items('menu'):
-      html_gen(page, title, templat_path)
+      html_gen(page, title, template_path)
