@@ -9,10 +9,6 @@ h2. Schwerpunkte der Praxis im konventionellen Bereich:
 
 Qualitätssicherung: Teilnahme am QuIK Register (Qualitätssicherung Invasive Kardiologie) des "(extern)Bundes Niedergelassener Kardiologen (BNK)":http://www.bnk.de/.
 
-p. 
-
-p. 
-
 h2. Besondere Untersuchungsverfahren
 
 * Kontrolle aller Schrittmacher- und ICD-Systeme
@@ -22,10 +18,6 @@ h2. Besondere Untersuchungsverfahren
 * Langzeit-EKG mit digitalen Flashrekordern
 * Ereignisrekorder zur Abklärung selten auftretender Rhythmusstörungen (Selbstzahler-Leistung)
 * Ultraschall Abdomen (Bauch) und Schilddrüse
-
-p. 
-
-p. 
 
 h2. Besondere Therapieverfahren
 
