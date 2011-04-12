@@ -37,4 +37,4 @@ h2. Öffnungszeiten
 Montag bis Freitag 8:00 bis 11:30 Uhr sowie nach Vereinbarung
 Dienstag und Donnerstag 12:00 bis 15:00 Herzkatheter am Kreiskrankenhaus Rastatt
 
-Praxis zertifiziert nach "DIN ISO 9001:2008":images/ISO-Zertifikat.pdf
+Praxis zertifiziert nach "(extern)DIN ISO 9001:2008":images/ISO-Zertifikat.pdf

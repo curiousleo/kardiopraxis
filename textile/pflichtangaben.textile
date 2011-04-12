@@ -6,7 +6,7 @@ Hier finden Sie auch die geltenden berufsrechtlichen Regelungen.
 
 h2. Qualitätssicherung
 
-Praxis ist zertifiziert nach "DIN ISO 9001:2008":images/ISO-Zertifikat.pdf.
+Praxis ist zertifiziert nach "(extern)DIN ISO 9001:2008":images/ISO-Zertifikat.pdf.
 
 h2. Zuständige Kassenärztliche Vereinigung: KV Baden-Württemberg
 
