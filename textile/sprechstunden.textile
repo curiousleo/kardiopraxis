@@ -1,5 +1,3 @@
-Sprechstunden
-
 h1. Sprechstunden
 
 |_. Montag bis Freitag | 8:00 Uhr bis 11:30 Uhr |

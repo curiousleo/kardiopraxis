@@ -1,5 +1,3 @@
-Praxisteam
-
 h1. Praxisteam
 
 |{width:200px}. !{margin:0}(rahmen)images/markert_klein.gif(Dr. med. Tilman Markert)! |<~. *Dr. med. Tilman Markert* |
