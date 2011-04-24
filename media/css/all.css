@@ -9,7 +9,7 @@ body {
 	min-width:730px;
 }
 #menu {
-	background:#CA0000 url(images/menu-tile.gif) repeat-x scroll center top;
+	background:#CA0000 url(../images/menu-tile.gif) repeat-x scroll center top;
 	border-bottom:3px solid #CC0000;
 	padding:25px 256px 25px 25px;
 }
@@ -40,7 +40,7 @@ body {
 	border-style: solid;
 	border-width: 0 3px 3px 3px;
 	
-	background:#FFFFFF url(images/logo-tile.gif) repeat-x top;
+	background:#FFFFFF url(../images/logo-tile.gif) repeat-x top;
 	
 	position: absolute;
 	right: 50px;
