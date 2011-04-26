@@ -81,14 +81,12 @@ a > img { border: inherit; }
 td, th {
 	padding-top: 10px;
 	padding-right: 25px;
+	vertical-align: top;
+	text-align: left;
 }
 
 #karte img {
 	border:  none;
-}
-th {
-	vertical-align: top;
-	text-align: left;
 }
 a.extern {
 	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAAXNSR0IArs4c6QAAAAJiS0dEAP+H j8y/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH2wQJEgA3m7p9FwAAAFFJREFUKM9j/P+f AS9gYmCgUAELppAOlL6Cy4Qd2ExA6HrC4IHdCoiBMOkdcGVoVsCkZaAacLhBBpn7////////a/9H Bsg8KgaUDg4FjLSPLACMOSwtDTeqJAAAAABJRU5ErkJggg==") no-repeat scroll right center transparent;
