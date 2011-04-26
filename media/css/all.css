@@ -35,6 +35,12 @@ body {
 	margin:75px auto 20px;
 	width:70%;
 }
+blockquote {
+  margin-top: 15px;
+  border-left: 3px #ca0000 solid;
+  padding-left: 10px;
+  margin-left: -13px
+}
 #logoright {
 	border-color: #CA0000;
 	border-style: solid;
