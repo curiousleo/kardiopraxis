@@ -23,21 +23,17 @@ Bilder unserer Praxis
    <a rel="lightbox" href="images/praxis-6.jpg"><img alt="Praxisbild 6" width="150" height="100" src="images/praxis-6-klein.jpg"></a>
    <a rel="lightbox" href="images/praxis-7.jpg"><img alt="Praxisbild 7" width="150" height="100" src="images/praxis-7-klein.jpg"></a>
 
-<div markdown="1" style="margin-top: 15px; border-left: 3px #ca0000 solid; padding-left: 10px; margin-left: -13px">
-
-**Standort Gaggenau:**  
-Hauptstraße 91  
-76571 Gaggenau  
-
-Telefon: (07225) 3213  
-Telefax: (07225) 1335  
-Email: kardiopraxis-gaggenau@web.de
-
-Zweigpraxis im Kreiskrankenhaus Rastatt:  
-Engelstraße 39  
-76437 Rastatt 
-
-</div>
+> **Standort Gaggenau:**  
+> Hauptstraße 91  
+> 76571 Gaggenau  
+> 
+> Telefon: (07225) 3213  
+> Telefax: (07225) 1335  
+> Email: kardiopraxis-gaggenau@web.de
+> 
+> Zweigpraxis im Kreiskrankenhaus Rastatt:  
+> Engelstraße 39  
+> 76437 Rastatt 
 
 Öffnungszeiten
 --------------
