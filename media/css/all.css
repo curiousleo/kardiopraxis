@@ -4,7 +4,7 @@
 }
 body {
 	font-family:"Tahoma",sans-serif;
-	font-size:medium;
+	font-size: 1.1em;
 	line-height:1.4em;
 	min-width:730px;
   width: 70%;
@@ -16,25 +16,32 @@ body {
   margin: 100px 0 0 0;
 }
 #menu a:link, #menu a:active, #menu a:visited {
-	/* color:#FFFFFF;
-	text-decoration:none; */
+	/* color:#FFFFFF; */
+	text-decoration:none;
+  color: #333;
 }
 #menu a:hover {
 	/* color:#FFFFFF;
 	text-decoration: none;
-	border-bottom:2px solid #FFFFFF; */
+  text-decoration: underline; */
+	border-bottom: 2px solid #ccc;
+  color: #343332;
+}
+#menu a.current {
+	border-bottom: 2px solid #ccc;
 }
 #menu ul {
 	/* text-align:center; */
 }
-#menu ul li {
+#menu li {
   list-style-type: none;
   text-align: right;
+  font-size: 1em;
 }
 #content {
 	margin:75px 0 20px 270px;
   padding: 10px 28px 10px 28px;
-  border-left: 18px solid #ccc;
+  border-left: 18px solid #ddd;
   background: #eee;
   color: #232221;
 }
@@ -51,13 +58,13 @@ blockquote {
 	margin: 0;
 }
 h1 {
-	font-size: 2.2em;
+	font-size: 2em;
   font-weight: normal;
 	margin-bottom:5px;
    line-height: 1.3em;
 }
 h2 {
-	font-size:medium;
+	font-size: 1em;
 	margin-bottom:3px;
 	margin-top:20px;
 }
@@ -69,7 +76,7 @@ p, li {
 	padding: 3px 0 3px 0;
 }
 li {
-	list-style-type: square;
+	list-style: square inside;
 }
 img.rahmen {
 	border: #ca0000 solid 3px;
