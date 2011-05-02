@@ -41,8 +41,8 @@ body {
 #content {
 	margin:75px 0 20px 270px;
   padding: 10px 28px 10px 28px;
-  border-left: 18px solid #ddd;
-  background: #eee;
+  border-left: 1px solid #ddd;
+  background: #fafafa;
   color: #232221;
 }
 blockquote {
