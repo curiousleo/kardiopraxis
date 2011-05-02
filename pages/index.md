@@ -23,22 +23,4 @@ Bilder unserer Praxis
    <a rel="lightbox" href="images/praxis-6.jpg"><img alt="Praxisbild 6" width="150" height="100" src="images/praxis-6-klein.jpg"></a>
    <a rel="lightbox" href="images/praxis-7.jpg"><img alt="Praxisbild 7" width="150" height="100" src="images/praxis-7-klein.jpg"></a>
 
-> **Standort Gaggenau:**  
-> Hauptstraße 91  
-> 76571 Gaggenau  
-> 
-> Telefon: (07225) 3213  
-> Telefax: (07225) 1335  
-> Email: kardiopraxis-gaggenau@web.de
-> 
-> Zweigpraxis im Kreiskrankenhaus Rastatt:  
-> Engelstraße 39  
-> 76437 Rastatt 
-
-Öffnungszeiten
---------------
-
-Montag bis Freitag 8:00 bis 11:30 Uhr sowie nach Vereinbarung
-Dienstag und Donnerstag 12:00 bis 15:00 Herzkatheter am Kreiskrankenhaus Rastatt
-
 Praxis zertifiziert nach [DIN ISO 9001:2008](images/ISO-Zertifikat.pdf){:.extern}
