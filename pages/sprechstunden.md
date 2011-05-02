@@ -13,5 +13,5 @@ Sprechstunden
 Notdienste
 ----------
 
-Kassenärztlicher Vertretungsdienst in Gaggenau über 01805 - 19292 - 108, in dringenden Fällen Notruf über 19222.
-Information zur kardiologischen Vertretung über Praxistelefon 07225 - 3213.
+Kassenärztlicher Vertretungsdienst in Gaggenau über 01805--19292--108, in dringenden Fällen Notruf über 19222.
+Information zur kardiologischen Vertretung über Praxistelefon (07225) 3213.
