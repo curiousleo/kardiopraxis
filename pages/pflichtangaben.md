@@ -5,6 +5,7 @@ Title: Pflichtangaben
 Pflichtangaben
 ==============
 
+{:.first}
 Zuständige Ärztekammer: Landesärztekammer Baden-Württemberg
 
 Hier finden Sie auch die geltenden berufsrechtlichen Regelungen.

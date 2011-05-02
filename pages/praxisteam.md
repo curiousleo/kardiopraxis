@@ -5,7 +5,7 @@ Title: Praxisteam
 Praxisteam
 ==========
 
-<table>
+<table class="first">
 		<tbody><tr>
 			<td style="width:200px;"><img alt="Dr. med. Tilman Markert" title="Dr. med. Tilman Markert" class="rahmen" style="margin:0;" src="images/markert_klein.gif"> </td>
 			<td style="vertical-align:bottom;text-align:left;"><strong>Dr. med. Tilman Markert</strong> </td>
