@@ -14,7 +14,7 @@ Praxisteam
 			<td colspan="2"><p>Nach Forschungstätigkeit am Max-Planck-Institut für Experimentelle Kardiologie Bad Nauheim und klinischer Weiterbildung an der Universitätsklinik Würzburg Leitender Oberarzt des Herzzentrums Coswig/Anhalt seit dessen Eröffnung 1998.</p> <p>2003 Übernahme der kardiologischen Praxis in Gaggenau.</p> <p>Seit 2004 Herzkatheter zu Diagnostik und Therapie am Kreiskrankenhaus Rastatt.</p> </td>
 		</tr>
 		<tr>
-			<td colspan="2"><img alt="Unsere Helferinnen" title="Unsere Helferinnen" class="rahmen" style="margin:0;" src="images/Helferinnen.jpg"> </td>
+			<td colspan="2"><img alt="Unsere Helferinnen" title="Unsere Helferinnen" class="rahmen" style="margin:0; width: 500px;" src="images/Helferinnen.jpg"> </td>
 		</tr>
 		<tr>
 			<td style="width:200px;"><img alt="Agnes Kresztel" title="Agnes Kresztel" class="rahmen" style="margin:0;" src="images/Agnes-klein.jpg"> </td>
