@@ -11,23 +11,27 @@ body {
 }
 #menu {
   float: left;
-  width: 200px;
-  margin: 100px 0 0 0;
+  margin: 110px 0 0 50px;
+}
+#menu a {
+	text-decoration:none;
+  color: #454443;
+  padding: 0 3px;
 }
 #menu a:link, #menu a:active, #menu a:visited {
 	/* color:#FFFFFF; */
-	text-decoration:none;
-  color: #333;
 }
 #menu a:hover {
 	/* color:#FFFFFF;
 	text-decoration: none;
-  text-decoration: underline; */
 	border-bottom: 2px solid #ccc;
-  color: #343332;
+  background: #ddd;
+  text-decoration: underline; */
+  color: #cc0000;
 }
 #menu a.current {
-	border-bottom: 2px solid #ccc;
+	border-bottom: 1px solid #ccc;
+  background: #fafafa;
 }
 #menu ul {
 	/* text-align:center; */
@@ -36,22 +40,26 @@ body {
   list-style-type: none;
   text-align: right;
   font-size: 1em;
+  padding: 0;
+  margin: 3px 0;
 }
 #content {
-	margin:75px 0 0 270px;
+	margin:75px 0 0 230px;
   padding: 10px 28px;
-  min-width: 550px;
+  min-width: 620px;
   border-left: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 3px solid #ddd;
   background: #fafafa;
   color: #232221;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.7);
 }
 #footer {
-  margin: 5px 0 20px 270px;
+  margin: 5px 0 20px 230px;
   padding-left: 28px;
   color: #333;
   font-size: 0.9em;
   line-height: 1.4em;
+  min-width: 620px;
 }
 #footer a:link, #footer a:active, #footer a:visited {
   text-decoration: none;
@@ -73,9 +81,11 @@ h1 {
 	font-size: 1.5em;
   font-weight: normal;
   background: white;
-  margin: -50px -50px -10px;
-  padding: 50px 50px 20px;
+  margin: -50px -28px -10px -29px;
+  padding: 50px 29px 20px;
   line-height: 1.3em;
+  color: #343332;
+  border-bottom: 3px solid #ddd;
 }
 h2 {
 	font-size: 1em;
