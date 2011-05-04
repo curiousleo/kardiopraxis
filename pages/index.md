@@ -10,7 +10,7 @@ Invasive und nichtinvasive Kardiologie
 
 * Herzkatheter am Kreiskrankenhaus Rastatt
 * Schrittmacherimplantation und Kontrolle
-* Leistungsdiagnostik
+* Kardiovaskuläre präventive Medizin
 
 Bilder unserer Praxis
 ---------------------
