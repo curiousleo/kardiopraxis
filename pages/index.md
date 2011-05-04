@@ -22,5 +22,3 @@ Bilder unserer Praxis
    <a rel="lightbox" href="images/praxis-5.jpg"><img alt="Praxisbild 5" width="150" height="100" src="images/praxis-5-klein.jpg"></a>
    <a rel="lightbox" href="images/praxis-6.jpg"><img alt="Praxisbild 6" width="150" height="100" src="images/praxis-6-klein.jpg"></a>
    <a rel="lightbox" href="images/praxis-7.jpg"><img alt="Praxisbild 7" width="150" height="100" src="images/praxis-7-klein.jpg"></a>
-
-Praxis zertifiziert nach [DIN ISO 9001:2008](images/ISO-Zertifikat.pdf){:.extern}
