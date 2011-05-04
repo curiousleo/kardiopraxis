@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+  {% include 'header' %}
+  <body>
+    <div id="menu">
+      <ul>
+      {% for item in menu %}
+        <li><a href="{{item.url}}" title="{{item.title}}"{% if item.title == title %} class="current"{% endif %}>{{item.title}}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+
+    <div><a href="index.htm" title="Zur Startseite"><img src="images/logoklein.gif" id="logoright" alt="Logo" /></a></div>
+    
+    <div id="content">
+      {{content}}
+    </div>
+    <div id="footer">
+      {% include 'footer' %}
+    </div>
+  </body>
+</html>
+
+<!-- vim: set expandtab tabstop=8 shiftwidth=2: -->
