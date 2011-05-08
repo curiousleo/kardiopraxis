@@ -117,6 +117,9 @@ td, th {
 #karte img {
 	border:  none;
 }
+.helferinnen td, .helferinnen th {
+  padding: 0 5px 0 0;
+}
 a.extern {
 	background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAAFlJREFUKM9j/M+AHzAxUKqABVNIB2rrFUYcJuyoxWICQteTaR6ZKOr/M/xn+M+g/R9CP67R/q/9X/v/42kwETQFMOn/DDCIRQGyNIYCTB4VA0oHR6Qw0j6yABwNTo4ODgGMAAAAAElFTkSuQmCC") no-repeat scroll right center transparent;
 	padding-right: 15px;
