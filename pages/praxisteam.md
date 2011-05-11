@@ -12,11 +12,27 @@ Praxisteam
 Dr. med. Tilman Markert
 -----------------------
 
-Nach Forschungstätigkeit am Max-Planck-Institut für Experimentelle Kardiologie Bad Nauheim und klinischer Weiterbildung an der Universitätsklinik Würzburg Leitender Oberarzt des Herzzentrums Coswig/Anhalt seit dessen Eröffnung 1998. 2003 Übernahme der kardiologischen Praxis in Gaggenau. Seit 2004 Herzkatheter zu Diagnostik und Therapie am Kreiskrankenhaus Rastatt.
+Nach Forschungstätigkeit am Max-Planck-Institut für Experimentelle Kardiologie Bad Nauheim und klinischer Weiterbildung an der Universitätsklinik Würzburg Leitender Oberarzt des Herzzentrums Coswig/Anhalt seit dessen Eröffnung 1998.
+
+2003 Übernahme der kardiologischen Praxis in Gaggenau. Seit 2004 Herzkatheter zu Diagnostik und Therapie am Kreiskrankenhaus Rastatt.
 
 Unsere Helferinnen
 ------------------
 
-{:.helferinnen}
-| ![Agnes Kresztel](images/Agnes-klein.jpg){:.rahmen style="margin:0"} | ![Daniel Windhorst](images/Daniela-klein.jpg){:.rahmen style="margin:0"} | ![Claudia Wichmann](images/Claudia-klein.jpg){:.rahmen style="margin:0"} | ![Regina Schmidt](images/Regina-klein.jpg){:.rahmen style="margin:0"} |
-| Agnes Kresztel | Daniela Windhorst | Claudia Wichmann | Regina Schmidt |
+{:.helferin}
+![Agnes Kresztel](images/Agnes-klein.jpg){:.rahmen}  
+*Agnes Kresztel*{:.name}
+
+{:.helferin}
+![Daniela Windhorst](images/Daniela-klein.jpg){:.rahmen}  
+*Daniela Windhorst*{:.name}
+
+<p></p>
+
+{:.helferin}
+![Claudia Wichmann](images/Claudia-klein.jpg){:.rahmen}  
+*Claudia Wichmann*{:.name}
+
+{:.helferin}
+![Regina Schmidt](images/Regina-klein.jpg){:.rahmen}  
+*Regina Schmidt*{:.name}
