@@ -1,9 +1,7 @@
 ---
 Title: Home
+Heading: Zentrum für Kardiologie und Kinderkardiologie <br /> Dr. med. Tilman Markert
 ---
-
-Zentrum für Kardiologie und Kinderkardiologie <br /> Dr. med. Tilman Markert
-============================================================================
 
 Invasive und nichtinvasive Kardiologie
 --------------------------------------

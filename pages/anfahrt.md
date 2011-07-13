@@ -2,9 +2,6 @@
 Title: Anfahrt
 ---
 
-Anfahrt
-=======
-
 {:.first}
 *S-Bahn* von Karlsruhe, Rastatt oder Freudenstadt bis Bahnhof Gaggenau (Bus von Baden-Baden) bis Bf Gaggenau. Links in die August-Schneider-Straße, nach 350m rechts in Rommelstraße, nächste links Hauptstraße.
 

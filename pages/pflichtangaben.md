@@ -2,9 +2,6 @@
 Title: Pflichtangaben
 ---
 
-Pflichtangaben
-==============
-
 {:.first}
 Zuständige Ärztekammer: Landesärztekammer Baden-Württemberg
 

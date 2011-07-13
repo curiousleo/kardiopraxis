@@ -2,9 +2,6 @@
 Title: Leistungen
 ---
 
-Leistungen
-==========
-
 Schwerpunkte der Praxis im konventionellen Bereich:
 ---------------------------------------------------
 
