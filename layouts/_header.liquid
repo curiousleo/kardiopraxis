@@ -16,7 +16,7 @@
       function downloadJSAtOnload() {
         for (f in jsfiles) {
           var element = document.createElement("script");
-          element.src = jsfolder + f;
+          element.src = jsfolder + jsfiles[f];
           document.body.appendChild(element);
         }
       }
