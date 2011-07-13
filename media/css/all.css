@@ -48,7 +48,14 @@ body {
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.7);
 }
 #content li {
-  list-style: circle inside;
+  list-style: none;
+}
+#content li:before {
+  content: "● ";
+  color: #aaa;
+  font-size: 0.6em;
+  margin-right: 1em;
+  vertical-align: top;
 }
 #box {
 	margin: 0 -28px;
