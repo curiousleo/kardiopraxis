@@ -120,7 +120,7 @@ img.left {
 	margin: 12px 12px 12px 0;
 	float: left;
 }
-a > img { border: inherit; }
+#content img { border-radius: 4px; }
 td, th {
 	padding-top: 10px;
 	padding-right: 25px;
