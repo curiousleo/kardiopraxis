@@ -2,16 +2,13 @@
 Title: Leistungen
 ---
 
-Leistungen
-==========
-
 Schwerpunkte der Praxis im konventionellen Bereich:
 ---------------------------------------------------
 
 * Diagnose von Durchblutungsstörungen des Herzmuskels (Ischämiediagnostik, Stressechokardiografie)
 * Rhythmusdiagnostik (Langzeit-EKG, Ereignisrekorder, Herzschrittmacher- und ICD-Kontrollen)
 * *Schrittmacherimplantationen* werden ambulant oder kurzstationär am Krankenhaus Forbach durchgeführt.
-* Für *Ballonerweiterung* der Herzkranzgefäße und Stentimplantationen ist zumindest eine Übernachtung in der Klinik notwendig (aufgrund der vorgeschriebenen Überwachung). Zur Verwendung kommen bei entsprechender Indikation ([Richtlinie](http://www.dgk.org/leitlinien/ZFK0119.pdf){:.extern} der Deutschen Gesellschaft für Kardiologie) auch beschichtete Gefäßstützen (Stents).
+* Für *Ballonerweiterung* der Herzkranzgefäße und Stentimplantationen ist zumindest eine Übernachtung in der Klinik notwendig. Zur Verwendung kommen bei entsprechender Indikation auch beschichtete Gefäßstützen (Stents).
 
 Qualitätssicherung: Teilnahme am QuIK Register (Qualitätssicherung Invasive Kardiologie) des [Bundes Niedergelassener Kardiologen (BNK)](http://www.bnk.de/){:.extern}.
 
@@ -23,7 +20,7 @@ Besondere Untersuchungsverfahren
 * Gefäßdiagnostik (Ultraschall mit Duplex und Doppler, teils Selbstzahlerleistungen)
 * Stressechokardiografie zur Beurteilung von Verengungen der Herzkranzgefäße
 * Langzeit-EKG mit digitalen Flashrekordern
-* Ereignisrekorder zur Abklärung selten auftretender Rhythmusstörungen (Selbstzahler-Leistung)
+* Ereignisrekorder zur Abklärung selten auftretender Rhythmusstörungen (Selbstzahlerleistung)
 * Ultraschall Abdomen (Bauch) und Schilddrüse
 
 Besondere Therapieverfahren

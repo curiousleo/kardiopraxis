@@ -2,9 +2,6 @@
 Title: Sprechstunden
 ---
 
-Sprechstunden
-=============
-
 {: style="margin-top:8px"}
 | **Montag bis Freitag** | 8:00 Uhr bis 11:30 Uhr |
 | **Montag** | 17:00 Uhr bis 18:30 Uhr <br /> Selbstzahlersprechstunde |

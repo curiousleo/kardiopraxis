@@ -10,6 +10,22 @@
     <meta name="revisit-after" content="2 days" />
     <link rel="stylesheet" type="text/css" href="css/all.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+    <script type="text/javascript">
+      var jsfiles = ["jquery.js", "jquery.lightbox-0.5.js"];
+      var jsfolder = "js/";
+      function downloadJSAtOnload() {
+        for (f in jsfiles) {
+          var element = document.createElement("script");
+          element.src = jsfolder + jsfiles[f];
+          document.body.appendChild(element);
+        }
+      }
+      if (window.addEventListener)
+        window.addEventListener("load", downloadJSAtOnload, false);
+      else if (window.attachEvent)
+        window.attachEvent("onload", downloadJSAtOnload);
+      else window.onload = downloadJSAtOnload;
+    </script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
     <script type="text/javascript">

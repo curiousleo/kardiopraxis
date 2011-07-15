@@ -2,9 +2,6 @@
 Title: Kooperationen
 ---
 
-Kooperationen
-=============
-
 Überörtliche Berufsausübungsgemeinschaft mit
 --------------------------------------------
 

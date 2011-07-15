@@ -2,9 +2,6 @@
 Title: Praxisteam
 ---
 
-Praxisteam
-==========
-
 {:.first}
 ![Dr. med. Tilman Markert](images/markert_klein.jpg){:.rahmen style="margin:0 18px 18px 0;float:left;"}
 
