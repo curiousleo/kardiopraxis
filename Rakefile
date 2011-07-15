@@ -2,12 +2,12 @@ require 'rake/clean'
 require 'yaml'
 require 'rubygems'
 require 'kramdown'
-require 'mustache'
+require 'liquid'
 
 config = {
-  'input_enc' => 'utf-8', 'input_ext' => '.mkd', 'input_dir' => 'pages',
+  'input_enc' => 'utf-8', 'input_ext' => '.md', 'input_dir' => 'pages',
   'output_enc' => 'utf-8', 'output_ext' => '.html', 'output_dir' => 'output',
-  'template' => 'templates/template.mustache', 'assets' => 'media'
+  'layout' => 'layouts/_default.liquid', 'assets' => 'media'
 }
 
 config.merge! YAML.load File.open 'site.yaml'
@@ -33,10 +33,10 @@ task :default => :gen
 
 desc 'generate the site'
 task :gen => OUT_PAGES + OUT_ASSETS + ['Rakefile'] do
-  puts 'done.'
+  puts 'Site generated.'
 end
 
-file '.menu.yaml' => ['site.yaml', config['template']] + SRC_PAGES do |t|
+file '.menu.yaml' => ['site.yaml', config['layout']] + SRC_PAGES do |t|
   $menu = []
   config['menu'].each do |p|
     src = File.join config['input_dir'], p + config['input_ext']
@@ -54,10 +54,10 @@ def dir_exists! f
 end
 
 SRC_PAGES.zip(OUT_PAGES).each do |src, out|
-  file out => [src, config['template'], '.menu.yaml'] do |t|
-    out, src, template = t.name, *t.prerequisites
+  file out => [src, config['layout'], '.menu.yaml'] do |t|
+    out, src, layout = t.name, *t.prerequisites
     dir_exists! out
-    make_page out, src, template
+    make_page out, src, layout
   end
 end
 
@@ -81,13 +81,30 @@ def parse_file src
   [meta, content]
 end
 
-def make_page out, src, template
+def make_page out, src, layout
   meta, content = parse_file src
   context = {
-    :content => Kramdown::Document.new(content).to_html,
-    :title => meta['Title'] || meta['title'],
-    :menu => $menu }
-  page = Mustache.render IO.read(template), context
+    'content' => Kramdown::Document.new(content).to_html,
+    'title' => meta['Title'] || meta['title'],
+    'heading' => meta['Heading'] || meta['heading'] ||
+      meta['Title'] || meta['title'],
+    'menu' => $menu }
+  Liquid::Template.file_system = Liquid::LocalFileSystem.new('layouts')
+  page = Liquid::Template.parse(Liquid::Template.file_system.read_template_file 'default').render context
   File.open(out, 'w') {|f| f.write page}
 end
 
+task :auto do |t|
+  require 'watchr'
+
+  src_pages = File.join config['input_dir'], '**', '*' + config['input_ext']
+  src_assets = File.join config['assets'], '**', '*'
+
+  script = Watchr::Script.new
+  script.watch("[#{src_pages}]|[#{src_assets}]") do |f|
+    system("date +%T && rake -s"); end
+  controller = Watchr::Controller.new(script, Watchr.handler.new)
+
+  puts 'Started automatic site generation.'
+  controller.run
+end
