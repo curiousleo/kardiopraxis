@@ -7,10 +7,10 @@ Zuständige Ärztekammer: Landesärztekammer Baden-Württemberg
 
 Hier finden Sie auch die geltenden berufsrechtlichen Regelungen.
 
-Qualitätssicherung
-------------------
+Qualitätsmanagement
+-------------------
 
-Praxis ist zertifiziert nach [DIN ISO 9001:2008](images/ISO-Zertifikat.pdf){:.extern}.
+Praxis ist zertifiziert nach [DIN ISO 9001:2008](images/ISO-Zertifikat.pdf){:.extern} und [Kardiologische Qualitätspraxis](images/Qualitaetspraxis.pdf){:.extern} durch den Bundesverband Niedergelassener Kardiologen.
 
 Zuständige Kassenärztliche Vereinigung: KV Baden-Württemberg
 ------------------------------------------------------------
