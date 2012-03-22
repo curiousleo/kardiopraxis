@@ -90,8 +90,9 @@ def make_page out, src, layout
       meta['Title'] || meta['title'],
     'menu' => $menu }
   Liquid::Template.file_system = Liquid::LocalFileSystem.new('layouts')
-  page = Liquid::Template.parse(Liquid::Template.file_system.read_template_file 'default', {}).render context
-  File.open(out, 'w') {|f| f.write page}
+  page = Liquid::Template.parse(
+    Liquid::Template.file_system.read_template_file 'default', {})
+  File.open(out, 'w') {|f| f.write (page.render context)}
 end
 
 task :auto do |t|
