@@ -31,7 +31,7 @@ CLOBBER.include OUT_ASSETS + OUT_PAGES
 
 task :default => :gen
 
-desc 'generate the site'
+desc 'Generate the site.'
 task :gen => OUT_PAGES + OUT_ASSETS + ['Rakefile'] do
   puts 'Site generated.'
 end
@@ -90,7 +90,7 @@ def make_page out, src, layout
       meta['Title'] || meta['title'],
     'menu' => $menu }
   Liquid::Template.file_system = Liquid::LocalFileSystem.new('layouts')
-  page = Liquid::Template.parse(Liquid::Template.file_system.read_template_file 'default').render context
+  page = Liquid::Template.parse(Liquid::Template.file_system.read_template_file 'default', {}).render context
   File.open(out, 'w') {|f| f.write page}
 end
 
